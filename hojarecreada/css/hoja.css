@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #665c5c;
+    color: aqua;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(71, 66, 66);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    background-color: #3a3a3a;
+    color:rgb(59, 54, 54);
+    padding: 10px;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-image img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.header-text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aqua;
+    padding: 40px;
+    font-size: 30px;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-text p {
+    margin: 0;
+}
+
+.header-image {
+    flex: 3;
+    height: 10px;
+}
+
+.header-image img {
+    width: 100%;
+    height: 170px;
+    box-shadow: #463d3d;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+}
+
+.left-column {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.right-column {
+    flex: 1;
+    background-color: #463d3d;
+    padding: 20px;
+}
+
+.skills-awards {
+    background-color: #463d3d;
+    padding: 20px;
+}
+
+.skills-awards h2 {
+    color: #8bd7fa;
+    border-bottom: 2px solid #2c2828;
+    padding-bottom: 5px;
+}
+
+.skills-awards ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.skills-awards ul li {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #302c2c;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+ h1{
+    padding: 10px;
+ }
+ p{
+    padding: 10px;
+ }
